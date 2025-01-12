@@ -1,0 +1,13 @@
+*download this zip then extract it 
+*after extraction open the folder in IDLE like vscode
+* Open the terminal and compile the folder using the comment 
+*then run the comment for execution
+
+!! change the api in the apiurl !!
+
+compile comment:
+ javac -cp "lib/json-simple-*.jar" -d out src/*.java 
+
+ run comment:
+ java -cp "lib/json-simple-*.jar" -d out src/*.java 
+  
